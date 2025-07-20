@@ -46,5 +46,3 @@ With the knowledge gained, you will be able to:
 - Lay the foundation for learning CSS and JavaScript
 
 ---
-
-**Happy Coding! 🚀**
