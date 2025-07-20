@@ -1,48 +1,32 @@
-# HTML Basics Project
+# HTML Project: Understanding the Basics
 
-## 📚 Learning Objectives
+## 📘 Project Description
 
-By the end of this project, you should be able to explain — without using Google — the following:
-
-### General
-- What is HTML
-- How to create an HTML page
-- What is a markup language
-- What is the DOM (Document Object Model)
-- What is an element / tag
-- What is an attribute
-- How a browser loads a webpage
+This beginner-friendly project helps you learn the foundations of HTML by building simple web pages using only HTML, CSS, and JavaScript. You will understand how web pages are structured, how the browser processes HTML, and how to embed content such as tweets or images.
 
 ---
 
-## ✅ Requirements
+## 🎯 Learning Objectives — With Answers
 
-### General Guidelines
-- **Recommended Editor**: Visual Studio Code
-- **Code Style**: All files must end with a new line
-- **README**: A `README.md` file at the root of the project folder is mandatory
-- **No External Libraries**: Do not use or install external tools like NodeJS, React, VueJS, Bootstrap, etc. Only pure **HTML**, **CSS**, and **JavaScript** allowed.
-- **Validation**: Your code must be W3C compliant. Validate your HTML using the [W3C Markup Validator](https://validator.w3.org/)
+### ✅ What is HTML?
+HTML (HyperText Markup Language) is the standard markup language used to create web pages. It allows developers to define the structure of content using elements like headings, paragraphs, links, images, etc.
 
 ---
 
-## 🎯 Program Outcome
+### ✅ How to Create an HTML Page
+To create an HTML page:
+1. Open a text editor (e.g., Visual Studio Code).
+2. Save your file with a `.html` extension (e.g., `index.html`).
+3. Add basic structure like this:
 
-By completing this project, you will be able to:
-
-- Explain what HTML is and how it works
-- Create your own HTML pages using valid markup
-- Use tags and attributes correctly to structure content
-- Understand what a markup language is and how browsers use it to render web pages
-
----
-
-## 💡 Real-World Application
-
-With the knowledge gained, you will be able to:
-
-- Build basic web pages (e.g. personal bios, lists, and simple documents)
-- Read and write clean HTML code with confidence
-- Lay the foundation for learning CSS and JavaScript
-
----
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Web Page</title>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+</body>
+</html>
